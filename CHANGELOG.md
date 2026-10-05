@@ -39,6 +39,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Updated the sandbox API hostname from `sandbox-pgapi.eps.com.bd` to `sandboxpgapi.eps.com.bd` to match the EPS Sandbox Merchant API Integration Guide V4.
+
 ### Planned
 - Webhook/IPN handler
 - Payment status polling with retry

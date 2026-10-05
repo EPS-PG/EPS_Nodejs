@@ -48,9 +48,9 @@ export class EPS {
    */
   private readonly ENDPOINTS = {
     SANDBOX: {
-      GET_TOKEN: 'https://sandbox-pgapi.eps.com.bd/v1/Auth/GetToken',
-      INITIALIZE: 'https://sandbox-pgapi.eps.com.bd/v1/EPSEngine/InitializeEPS',
-      VERIFY: 'https://sandbox-pgapi.eps.com.bd/v1/EPSEngine/CheckMerchantTransactionStatus',
+      GET_TOKEN: 'https://sandboxpgapi.eps.com.bd/v1/Auth/GetToken',
+      INITIALIZE: 'https://sandboxpgapi.eps.com.bd/v1/EPSEngine/InitializeEPS',
+      VERIFY: 'https://sandboxpgapi.eps.com.bd/v1/EPSEngine/CheckMerchantTransactionStatus',
     },
     PRODUCTION: {
       GET_TOKEN: 'https://pgapi.eps.com.bd/v1/Auth/GetToken',
